@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-fastapi
+spec:
+  containers:
+    - name: hello-fastapi
+      image: eduardosilvasc/hello-fastapi-k8s
+      ports:
+        - containerPort: 8000
