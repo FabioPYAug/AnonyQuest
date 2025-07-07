@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 images:
-  - name: backend-projetodevops
-    newName: fabioaugusto2403/backend-projetodevops
-    newTag: c58b625834eb8b45c0d3d3b45ba4cbc288fc5146
+- name: backend-projetodevops
+  newName: fabioaugusto2403/backend-projetodevops
+  newTag: a90a84a41207da68d74f36ff3c2b92b7dbbfac45
