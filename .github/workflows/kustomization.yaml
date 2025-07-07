@@ -4,6 +4,6 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: hello-fastapi
-    newName: eduardosilvasc/hello-fastapi-k8s
+  - name: backend-projetodevops
+    newName: fabioaugusto2403/backend-projetodevops
     newTag: c58b625834eb8b45c0d3d3b45ba4cbc288fc5146
