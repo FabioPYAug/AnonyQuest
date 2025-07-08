@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-fastapi
+  name: backend-projetodevops
 spec:
     replicas: 3
     selector:
         matchLabels:
-        app: hello-fastapi
+        app: backend-projetodevops
     template:
         metadata:
         labels:
-            app: hello-fastapi
+            app: backend-projetodevops
         spec:
         containers:
-        - name: hello-fastapi
-            image: eduardosilvasc/hello-fastapi-k8s
+        - name: backend-projetodevops
+            image: fabioaugusto2403/backend-projetodevops
             ports:
             - containerPort: 8000
