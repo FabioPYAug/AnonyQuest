@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: backend-projetodevops
 spec:
-    replicas: 3
-    selector:
-        matchLabels:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend-projetodevops
+  template:
+    metadata:
+      labels:
         app: backend-projetodevops
-    template:
-        metadata:
-        labels:
-            app: backend-projetodevops
-        spec:
-        containers:
+    spec:
+      containers:
         - name: backend-projetodevops
-            image: fabioaugusto2403/backend-projetodevops
-            ports:
+          image: fabioaugusto2403/backend-projetodevops
+          ports:
             - containerPort: 8000
