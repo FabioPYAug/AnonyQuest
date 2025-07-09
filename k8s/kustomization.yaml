@@ -6,4 +6,4 @@ resources:
 images:
 - name: backend-projetodevops
   newName: fabioaugusto2403/backend-projetodevops
-  newTag: b3c2e22c4a70830a54db250fa1dc8ed5d4bf8640
+  newTag: 71f8a680c24216dc52e1eae12d0f364e4bd1fb52
