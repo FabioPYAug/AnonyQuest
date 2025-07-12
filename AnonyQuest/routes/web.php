@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('/teste', function () {
-    return "teste";
+    return "<h1>Titulo até que relativamente grandinhozinho</h1>";
 });
 
