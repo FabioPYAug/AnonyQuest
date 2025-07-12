@@ -9,4 +9,3 @@ Route::get('/', function () {
 Route::get('/teste', function () {
     return "<h1>Titulo até que relativamente grandinhozinho</h1>";
 });
-
