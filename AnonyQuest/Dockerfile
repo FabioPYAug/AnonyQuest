@@ -11,6 +11,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 WORKDIR /app
 COPY . /app
 
+COPY .env.example /app/.env
+
 RUN composer install
 
 CMD php artisan serve --host=0.0.0.0 --port=8181
