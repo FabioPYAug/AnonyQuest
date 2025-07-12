@@ -12,6 +12,7 @@ WORKDIR /app
 COPY . /app
 
 COPY .env.example /app/.env
+RUN php artisan key:generate
 
 RUN composer install
 
